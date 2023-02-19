@@ -3,7 +3,7 @@ import pickle
 import streamlit as st
 
 #loading the saved model
-loaded_model = pickle.load(open("C:/Users/Shantanu/Desktop/Lung Cancer Prediction/lung_model.sav", 'rb'))
+loaded_model = pickle.load(open("lung_model.sav", 'rb'))
 
 #creating the function for prediction
 def lung_prediction(input_data):
