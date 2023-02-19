@@ -17,11 +17,11 @@ def lung_prediction(input_data):
 
 
     if (prediction[0] == 0):
-        return("The person does not have Lung Cancer")
+        return("The person could have low levels of Lung Cancer")
     elif (prediction[0] == 1):
-        return("The person could have lower levels of Lung Cancer")
+        return("The person could have medium levels of Lung Cancer")
     else:
-        return("The person could have higher levels of lung cancer")
+        return("The person could have higher levels of Lung cancer")
 
 
 def main():
